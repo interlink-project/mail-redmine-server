@@ -74,7 +74,8 @@ services:
       # - traefik.http.middlewares.iframeHeaders.headers.customresponseheaders.Access-Control-Allow-Methods=DELETE, POST, PUT, GET, OPTIONS
       # - traefik.http.middlewares.iframeHeaders.headers.customresponseheaders.Access-Control-Allow-Headers=Content-Type, Authorization, X-Requested-With
     networks:
-      - traefik-public
+      traefik-public:
+        ipv4_address: 172.22.0.3
 
     logging:
       driver: "json-file"

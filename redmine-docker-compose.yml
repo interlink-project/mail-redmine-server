@@ -17,7 +17,7 @@ services:
       # Mail
 #      - "25:25" #SMTP
 #      - "465:465" #SMTP SSL
-      - "587:587" #SMTP START
+#      - "587:587" #SMTP START
 #      - "110:110" #POP3
 #      - "995:995" #POP3 SSL
 #      - "143:143" #IMAP
